@@ -77,14 +77,14 @@ To get started, follow these steps:
    - Windows (Powershell):
 
      ```ps1
-     Invoke-WebRequest https://raw.githubusercontent.com/Alexis12119/nvim-config/main/installer/install.ps1 -UseBasicParsing | Invoke-Expression
+     Invoke-WebRequest https://raw.githubusercontent.com/Ifechukwudaniel/nvim-config/main/installer/install.ps1 -UseBasicParsing | Invoke-Expression
      ```
 
    - Windows (CMD):
 
      ```cmd
      git clone https://github.com/NvChad/NvChad.git %localappdata%\nvim
-     git clone https://github.com/Alexis12119/nvim-config.git %localappdata%\nvim\lua\custom
+     git clone https://github.com/Ifechukwudaniel/nvim-config.git %localappdata%\nvim\lua\custom
      ```
 
 3. Run `nvim` and wait for the plugins to be installed.
@@ -96,6 +96,7 @@ To get started, follow these steps:
 This Neovim configuration is built upon the foundation of NvChad. Special thanks to the NvChad community and developers for their fantastic work.
 
 - [NvChad](https://github.com/NvChad/NvChad)
+- [Alexis12119/nvim-config](https://github.com/Alexis12119/nvim-config.git)
 
 > “Make it work, make it right, make it fast.”
 
