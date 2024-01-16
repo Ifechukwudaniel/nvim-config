@@ -15,6 +15,10 @@ return {
           },
           allFeatures = true,
         },
+        checkOnSave = {
+          allFeatures = true,
+          command = 'clippy',
+        },
         procMacro = {
           enable = true
         },
