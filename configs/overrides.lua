@@ -44,7 +44,8 @@ local prettier_ft = {
   "typescript",
   "vue",
   "yaml",
-  "solidity"
+  "solidity",
+  "rust"
 }
 
 for _, filetype in pairs(prettier_ft) do
@@ -80,7 +81,7 @@ M.treesitter = {
     'xml',
     'php',
     'markdown',
-    'astro', 'glimmer', 'handlebars', 'hbs' },
+    'astro', 'glimmer', 'handlebars', 'hbs', 'rs' },
   },
   indent = {
     enable = false,
@@ -208,6 +209,9 @@ M.mason = {
     "tailwindcss-language-server",
     "emmet-language-server",
 
+    --Zero Knowlage
+    "noir-lsp",
+
     -- PHP
     -- "intelephense",
 
@@ -236,6 +240,9 @@ M.mason = {
     -- C#
     -- "omnisharp",
     -- "omnisharp-mono",
+
+    -- Rust
+    "rust-analyzer",
   },
 }
 

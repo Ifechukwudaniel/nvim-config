@@ -1,3 +1,17 @@
+local lspconfig = require 'lspconfig'
+local configs = require 'lspconfig.configs'
+
+if not configs.noir_lsp then
+  configs.noir_lsp = {
+    default_config = {
+      cmd = { 'nargo', '--lsp' },
+      root_dir = lspconfig.util.root_pattern('Nargo.toml'),
+      filetypes = { 'noir', 'nr' },
+    },
+  }
+end
+lspconfig.noir_lsp.setup {}
+
 local on_attach = require("custom.configs.lsp").on_attach
 local capabilities = require("custom.configs.lsp").capabilities
 
