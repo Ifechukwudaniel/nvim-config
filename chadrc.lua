@@ -4,8 +4,8 @@ local M = {}
 local highlights = require "custom.highlights"
 
 M.ui = {
-  theme = "gatekeeper",
-  theme_toggle = { "gatekeeper", "one_light" },
+  theme = "palenight",
+  theme_toggle = { "palenight", "one_light" },
   lsp_semantic_tokens = false, -- needs nvim v0.9, just adds highlight groups for lsp semantic tokens
   hl_override = highlights.override,
   hl_add = highlights.add,
